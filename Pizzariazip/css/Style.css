@@ -1,0 +1,156 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+}
+
+body{
+    background-color: rgb(255, 21, 0);
+}
+
+#container{
+    width:100%;
+    max-width: 1500px;
+    margin:0 auto;
+}
+
+#titulo{
+    background-color: gold;
+    height: 80px;
+    text-align: center;
+    color:crimson
+}
+
+#titulo h1{
+    padding: 10px
+}
+
+#menu, #menu2{
+    text-align: center;
+}
+
+#menu, #menu2 ul{
+
+   list-style: none;     
+
+}
+
+#menu ul li{
+    display: inline;
+    text-transform: uppercase;
+}
+#menu2 ul li a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color:rgb(255, 21, 0);
+    font-weight: bold;
+
+    
+}
+#menu ul li a{
+    display: inline-block;
+    padding:10px;
+    padding-left: 135px;
+    padding-right: 135px;
+    text-decoration: none;
+    color:gold;
+    font-weight: bold;
+
+}
+#menu2 ul li a:hover{
+    color:gold;
+    background-color: rgb(255, 21, 0);
+}
+#menu ul li a:hover{
+    color:rgb(255, 21, 0);
+    background-color:gold;
+}
+.sobre{
+    width: 500px;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 40px;
+    color: gold;
+    
+}
+
+
+
+#capa img{
+    width: 100%;
+    height: 700px;
+}
+.imagens{
+    display: inline-block;
+    margin-left: 40px;
+    padding: 20px;
+    
+
+}
+.imagens img{
+    width:400px;
+    height:400px;
+}
+
+#rodape{
+    background-color: gold;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.rodape2{
+    display:inline-block;
+    width:500px;
+    color:rgb(255, 21, 0);
+}
+.rodape2 img{
+    width:50px;
+    height:50px;
+
+}
+#rodape3 hr{
+    border-color: rgb(255, 21, 0);
+}
+#rodape3 h3,h4{
+    padding: 10px;
+    color:rgb(255, 21, 0);
+
+}
+.formulario{
+    margin:0 auto;
+    width:700px;
+    padding:20px;
+
+}
+.formulario div{
+    padding: 20px;
+}
+.input{
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    float: right
+}
+.radio {
+    margin-bottom: 5px;
+    margin-left: 80px;
+    font-size: 16px;
+    transform: scale(1.3); 
+  }
+  .cardapio{
+    display: inline-block;
+    margin-left: 40px;
+    padding: 20px;
+    color: gold;
+    
+
+}
+.cardapio img{
+    width: 400px;
+    height: 300px;
+}
+
+
